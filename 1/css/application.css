@@ -1,0 +1,45 @@
+@import "materialize/components/color";
+$primary-color: color("teal", "lighten-2") !default;
+$secondary-color: color("yellow", "base") !default;
+@import 'materialize';
+
+
+div{
+  padding: -1px;
+  margin:  -1px;
+}
+body{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+header, .header .row .col {
+    min-height: 360px;
+}
+h1{
+    font-weight: 600;
+    display: block; 
+    width: 100%; 
+}
+h1>small{
+  font-weight: 200;
+  display: block;  
+}
+
+.container{
+    border: 20px solid gainsboro;
+    }
+.row .col{
+    min-height: 240px;
+    border: 10px solid gainsboro; 
+}
+
+.row{
+    margin: 0;
+}
+
+footer{
+  margin-bottom: -10px;
+}
+header{
+  margin-top: -10px;
+}

@@ -1,0 +1,38 @@
+@import "materialize/components/color";
+$primary-color: color("teal", "lighten-2") !default;
+$secondary-color: color("yellow", "base") !default;
+@import 'materialize';
+
+@import "materialize/extras/nouislider/nouislider.css";
+
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+body{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+
+}
+header, .header .row .col {
+    min-height: 360px;
+    border-top: 0;
+
+}
+h1{
+    line-height: 360px;
+    font-weight: 600px;
+}
+footer .row .col{
+    border-bottom: 0;
+}
+.container{
+    border: 20px solid gainsboro;
+}
+.row .col{
+    min-height: 240px;
+    border: 10px solid gainsboro; 
+}
+
+.row{
+    margin: 0;
+    padding-bottom: -10px;
+}

@@ -1,0 +1,74 @@
+.container .row-seven{
+  margin: 14px 0 14px 0;
+}
+
+.row-seven {
+   min-height: 44px;
+}
+
+.row.row-seven{
+  margin-left:  15;
+  margin-right: 0;
+
+}
+.col-seven {
+  color: white;
+  width: 13.88%;
+  margin: auto 1px;
+  line-height: 2;
+  left: auto;
+  right: auto;
+}
+.logo{
+  min-height: 60px;
+}
+.col .s12 .m9 .center-align .valig-wrapper{
+  line-height: 50px;
+}
+.col.s12.m3.center-align.valig-wrapper{
+  min-height: 54px;
+}
+.row .row-seven{
+ min-height: 1px;
+}
+.row{
+   margin-bottom: 0px;
+}
+.div.col.s12.m9{
+  align-content: right;
+}
+.menu{
+
+  min-width: 9%;
+  float: left;
+  margin-left: 15px;
+  align-content: left;
+  vertical-align: bottom;
+  margin-top: 13px;
+  font-size: 1.3rem;
+}
+
+.photo{
+  width: 100%;
+  min-height: 220px;
+  display: block;
+  line-height: 200px;
+  }
+header{
+  margin: 0 -2px 0 11px;
+}
+
+.sidebar{
+  min-height: 700px;
+}
+
+.col .s12 .m6{
+  min-height: 220px;
+}
+
+@media only screen and (min-width: 601px) .row.col.m1
+{    width: 12%;
+    margin-left: 1px;
+    left: auto;
+    right: auto;
+}
